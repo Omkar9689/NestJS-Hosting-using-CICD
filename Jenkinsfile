@@ -11,7 +11,7 @@ pipeline{
     stages{
         stage('Clone Repo'){
             steps{
-                git branch : 'main',url : 'https://github.com/Omkar9689/NestJS-deployment-Using-CICD-.git'
+                git branch : 'main',url : 'https://github.com/Omkar9689/NestJS-Hosting-using-CICD.git'
             }
         }
 
